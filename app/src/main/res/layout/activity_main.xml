@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingHorizontal="30dp"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/logo" />
+    <Button
+        android:id="@+id/registerCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register as Customer"
+        ></Button>
+    <Button
+        android:id="@+id/registerAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register as Admin"
+        ></Button>
+    <Button
+        android:id="@+id/loginCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login as Customer"
+        ></Button>
+    <Button
+        android:id="@+id/loginAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login as Admin"
+        ></Button>
+
+
+
+</LinearLayout>
